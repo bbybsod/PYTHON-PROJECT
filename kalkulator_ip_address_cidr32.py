@@ -15,7 +15,6 @@ print("jumlah ip =", jumlah_ip, )
 ip_host = jumlah_ip - 2
 print("jumlah ip = host =", ip_host, )
 
-
 range_ip = (d/jumlah_ip)*jumlah_ip 
 print("range ip pertama =", range_ip, )
 range_ip2 = (range_ip + jumlah_ip) - 1 
