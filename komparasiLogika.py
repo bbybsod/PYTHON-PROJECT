@@ -7,3 +7,4 @@ hasil = (user1 < 3 )
 print('angka adalah', hasil)
 
 user2 = int(input('masukan angka '))
+angka2 = user2
