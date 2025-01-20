@@ -1,2 +1,2 @@
 print('==========KOMPARASI LOGIKA==========')
-user1 = int
+user1 = int(input('masukan angka'))
