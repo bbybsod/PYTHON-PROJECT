@@ -1,3 +1,6 @@
+import pyfiglet
+text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+print(text)
 print("==========KONVERSI TEMPERATUR==========")
 
 print("==========KONVERSI FAHRENHEIT==========")
