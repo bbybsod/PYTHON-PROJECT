@@ -1,6 +1,4 @@
 print("==========KONVERSI TEMPERATUR==========")
-print("============== BY RASYA ===============")
-print("=========B==B==Y==B==S==O==D===========")
 
 print("==========KONVERSI FAHRENHEIT==========")
 fahrenheit = float(input("masukan suhu dalam fahrenheit : "))
