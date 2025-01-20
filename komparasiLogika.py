@@ -1,6 +1,10 @@
+import pyfiglet
+text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+print(text)
+
 print('==========KOMPARASI LOGIKA==========')
 print('================RASYA===============')
-print('=====kurang dari=====')
+print('\n=====kurang dari=====')
 user1 = int(input('masukan angka yang kurang dari 3:'))
 angka1 = user1 
 hasil = (user1 < 3 )
