@@ -1,3 +1,6 @@
+import pyfiglet
+text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+print(text)
 data = int(input("masukan data :"))
 print("data ini adalah =", data, ",type =", type(data))
 data_bool = bool(data)
