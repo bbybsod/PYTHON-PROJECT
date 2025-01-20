@@ -1,5 +1,7 @@
+import pyfiglet
+text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+print(text)
 print('OPERASI LOGIKA OR,NOT,AND,XOR')
-print('===========BY RASYA==========')
 print('============NOT==============')
 a  = True 
 b  = not a 
