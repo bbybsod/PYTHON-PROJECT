@@ -10,3 +10,4 @@ user2 = int(input('masukan angka yang lebih dari 3 '))
 angka2 = user2
 hasil1 = (user2 > 3)
 print('angka adalah', hasil1)
+
