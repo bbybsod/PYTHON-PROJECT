@@ -1,5 +1,5 @@
 import pyfiglet
-text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+text = pyfiglet.figlet_format('BBYBSOD')
 print(text)
 data = int(input("masukan data :"))
 print("data ini adalah =", data, ",type =", type(data))

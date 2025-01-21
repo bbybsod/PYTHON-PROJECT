@@ -1,5 +1,5 @@
 import pyfiglet
-text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+text = pyfiglet.figlet_format('BBYBSOD')
 print(text)
 print("========================KALKULATOR IP ADDRESS CIDR 32==========================")
 print("NOTE : GUNAKANLAH ANGKA YANG GENAP DAN TIDAK MEMILIKI KOMA AGAR HASILNYA AKURAT")

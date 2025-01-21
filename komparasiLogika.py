@@ -1,5 +1,5 @@
 import pyfiglet
-text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+text = pyfiglet.figlet_format('BBYBSOD')
 print(text)
 
 print('==========KOMPARASI LOGIKA==========')
