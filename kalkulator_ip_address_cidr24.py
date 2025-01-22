@@ -10,9 +10,9 @@ c = int(input('masukan ocatate ketiga ='))
 d = int(input('masukan octate keempat ='))
 e = int(input('masukan cidr ='))
 
-jumlah_cidr = 32 - e;
-print("jumlah cidr = 2 pangkat", jumlah_cidr ,)
-jumlah_ip = (2**jumlah_cidr)
+jumlah_cidr = 24 - e;
+print("jumlah cidr = 2 pangkat", jumlah_cidr ,) 
+jumlah_ip = (2**jumlah_cidr) * 256 
 print("jumlah ip =", jumlah_ip, )
 ip_host = jumlah_ip - 2
 print("jumlah ip = host =", ip_host, )
