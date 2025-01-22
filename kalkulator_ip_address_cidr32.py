@@ -3,7 +3,7 @@ text = pyfiglet.figlet_format('BBYBSOD')
 print(text)
 print("========================KALKULATOR IP ADDRESS CIDR 32==========================")
 print("NOTE : GUNAKANLAH ANGKA YANG GENAP DAN TIDAK MEMILIKI KOMA AGAR HASILNYA AKURAT")
-
+ 
 a = int(input('masukan octate pertama ='))
 b = int(input('masukan octate kedua ='))
 c = int(input('masukan ocatate ketiga ='))
