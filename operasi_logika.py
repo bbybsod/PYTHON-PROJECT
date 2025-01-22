@@ -2,7 +2,7 @@ import pyfiglet
 text = pyfiglet.figlet_format('BBYBSOD ')
 print(text)
 print('OPERASI LOGIKA OR,NOT,AND,XOR')
-print('============NOT==============')
+print('============NOT==============') 
 a  = True 
 b  = not a 
 print('data a =' , a)
