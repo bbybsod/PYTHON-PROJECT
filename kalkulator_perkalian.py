@@ -1,5 +1,5 @@
 import pyfiglet
-text = pyfiglet.figlet_format('BBYBSOD BY RASYA')
+text = pyfiglet.figlet_format('BBYBSOD BY RASY')
 print(text)
 a = int(input("masukan angka pertama :"))
 b = int(input("masukan angka kedua :"))
