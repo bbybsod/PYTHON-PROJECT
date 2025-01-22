@@ -1,7 +1,7 @@
 import pyfiglet
 text = pyfiglet.figlet_format('BBYBSOD')
 print(text)
-
+ 
 print('==========KOMPARASI LOGIKA==========')
 print('================RASYA===============')
 print('\n=====kurang dari=====')
