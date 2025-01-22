@@ -24,11 +24,11 @@ print("range ip kedua =", range_ip2,)
 range_ipreal = range_ip
 range_ipreal2 = range_ip2
 
-print("range ip =",a,".",b,".",c,".",range_ipreal,"-",a,".",b,".",c,".",range_ipreal2, )
+print("range ip =",a,".",b,".",range_ipreal,".",'o',"-",a,".",b,".",range_ipreal2,".",'255', )
 
 print("range ip host =", a,".",b,".",c,".", range_ip - 1, "-" , a,".",b,".",c,".",range_ip2 - 1 )
 print("ip network =" ,a,".",b,".",c,".",range_ipreal )
 print("ip broadcast =", a,".",b,".",c,".",range_ipreal2,)
-print("subnetmask =", "255.255.255" , 256 - jumlah_ip)
+print("subnetmask =", "255.255." , 256 - jumlah_ip, '.', 255)
 
 print("=========================19 JANUARI 2025 XII TKJ 1=========================")
