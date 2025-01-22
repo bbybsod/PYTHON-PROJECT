@@ -1,7 +1,7 @@
 import pyfiglet
 text = pyfiglet.figlet_format('BBYBSOD')
 print(text)
-print("========================KALKULATOR IP ADDRESS CIDR 32==========================")
+print("========================KALKULATOR IP ADDRESS CIDR 24==========================")
 print("NOTE : GUNAKANLAH ANGKA YANG GENAP DAN TIDAK MEMILIKI KOMA AGAR HASILNYA AKURAT")
   
 a = int(input('masukan octate pertama ='))
