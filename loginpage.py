@@ -2,7 +2,7 @@ import pyfiglet
 
 pw = 123
 
-
+#USER INTERFACE===========================
 text = pyfiglet.figlet_format('bbybsod')
 print(text)
 
@@ -11,7 +11,7 @@ print('github: github.com/bbybsod')
 print('TikTok: sean.myxzu')
 print('==================================')
 print('\n============LOGIN===============')
-
+#==========================================
 nama = str(input('username :'))
 password = int(input('password :'))
 
@@ -39,24 +39,34 @@ if password == pw:
     c1 = 198 
     d1 = 3 
     #HARGA==============================
-    a2 = 17,000,000
-    b2 = 56,000,000
-    c2 = 34,000,000
-    d3 = 633,000,000
-
+    a2 = 17000000
+    b2 = 56000000
+    c2 = 34000000
+    d3 = 633000000
+    #PROSES INPUT DATA===================
     user_choice = str(input('Masukan id barang :'))
     user_stok = int(input('Masukan jumlah :'))
+    user_money = int(input('masukan sisa uang kamu di rekening :'))
+    #=====================================
     if user_choice == "a":
-        print('barang Desert Eagle sebanyak', user_stok,'sukses di beli')
+        print('barang Desert Eagle sebanyak', user_stok,'dengan harga', a2*user_stok, 'sukses di beli')
+        print('sisa uang di rekening mu sisa :', user_money - a2)
+        print('sisa stok desert eagle :', a1 - user_stok)
     elif user_choice == 'b':
-        print('barang AK47 sebanyak', user_stok,'sukses di beli')
+        print('barang AK47 sebanyak', user_stok,'dengan harga', b2*user_stok,'sukses di beli')
+        print('sisa uang di rekening mu sisa :', user_money - b2)
+        print('sisa stok AK47 :', b1 - user_stok)
     elif user_choice == 'c': 
-        print('barang M416 sebanyak', user_stok,'sukses di beli')
+        print('barang M416 sebanyak', user_stok,'dengan harga', c2*user_stok ,'sukses di beli')
+        print('sisa uang di rekening mu sisa :', user_money - c2)
+        print('sisa stok M416 :', c1 - user_stok)
     elif user_choice == "d": 
-        print('barang Bitcoin sebanyak', user_stok,'sukses di beli')
+        print('barang Bitcoin sebanyak', user_stok, 'dengan harga', d3*user_stok ,'sukses di beli')
+        print('sisa uang di rekening mu sisa :', user_money - d3)
+        print('sisa stok Bitcoin :', d1 - user_stok)
     else:
         print('kesalahan input')
-
+    #======================================
 else:
     print('password anda salah, ulangi lagi!')
     exit()
