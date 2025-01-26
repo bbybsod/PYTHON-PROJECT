@@ -46,14 +46,14 @@ if password == pw:
 
     user_choice = str(input('Masukan id barang :'))
     user_stok = int(input('Masukan jumlah :'))
-    if user_choice == a:
-        print('barang', a, 'sebanyak', user_stok,'sukses di beli')
-    elif user_choice == b:
-        print('barang', b, 'sebanyak', user_stok,'sukses di beli')
-    elif user_choice == c: 
-        print('barang', c, 'sebanyak', user_stok,'sukses di beli')
-    elif user_choice == d: 
-        print('barang', d, 'sebanyak', user_stok,'sukses di beli')
+    if user_choice == "a":
+        print('barang Desert Eagle sebanyak', user_stok,'sukses di beli')
+    elif user_choice == 'b':
+        print('barang AK47 sebanyak', user_stok,'sukses di beli')
+    elif user_choice == 'c': 
+        print('barang M416 sebanyak', user_stok,'sukses di beli')
+    elif user_choice == "d": 
+        print('barang Bitcoin sebanyak', user_stok,'sukses di beli')
     else:
         print('kesalahan input')
 
