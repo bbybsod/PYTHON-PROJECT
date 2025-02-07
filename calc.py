@@ -1,3 +1,4 @@
+
 data_1 = float(input('masukan angka pertama : '))
 operator = input('masukan operator "+,/,-,x": ')
 data_2 = float(input('masukan angka kedua : '))
