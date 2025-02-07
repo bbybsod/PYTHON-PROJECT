@@ -1,3 +1,5 @@
+import pyfiglet
+text = pyfiglet.figlet_format('SEAN')
 
 data_1 = float(input('masukan angka pertama : '))
 operator = input('masukan operator "+,/,-,x": ')
